@@ -105,8 +105,8 @@ GEM
     pygments.rb (0.6.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rack (1.5.2)
-    rack-contrib (1.1.0)
+    rack (3.2.3)
+    rack-contrib (1.2.0)
       rack (>= 0.9.1)
     rake (10.3.2)
     rb-fsevent (0.9.4)
@@ -134,6 +134,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
-  rack-contrib (~> 1.1.0)
+  rack-contrib (~> 1.2.0)
   rake
   rdiscount
+
+BUNDLED WITH
+   2.3.27
